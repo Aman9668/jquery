@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang = "en">
+   <head>
+      <meta charset = "utf-8">
+      <title>jQuery UI Tabs functionality</title>
+      <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css
+         " rel = "stylesheet">
+      <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+      <script>
+         $(function() {
+            $( "#page-1" ).tabs();
+         });
+      </script>
+		
+      <style>
+         #page-1{font-size: 14px;}
+         .ui-widget-header {
+            background:#ea9708;
+            border: 1px solid #eff0ec;
+            color: #11d825;
+            font-weight: bold;
+         }
+          #page-2{
+            width: 100px;
+            height: 100px;
+          }
+      </style>
+   </head>
+	
+   <body>
+      <div id = "page-1">
+         <ul>
+            <li><a href = "#page-2">page 1</a></li>
+            <li><a href = "#page-3">page 2</a></li>
+            <li><a href = "#page-4">page 3</a></li>
+         </ul>
+         <div id = "page-2">
+            <p>
+                Hello sir ?
+            </p>
+         </div>
+         <div id = "page-3">
+            <p>
+                Hi How are you ? 
+            </p>
+         </div>
+         <div id = "page-4">
+            <p>
+                my name is shah het😊.
+            </p>
+         </div>
+      </div>
+   </body>
+</html>
